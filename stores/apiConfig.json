@@ -1,0 +1,360 @@
+{
+    "liked_status": {
+        "requested": 1,
+        "matched": 2,
+        "rejected": 3,
+        "unmatched": 4,
+        "archived": 5
+    },
+    "gender_options": {
+        "F": "Female",
+        "M": "Male",
+        "N": "Non-Binary"
+    },
+    "goal_options": {
+        "1": "I have a vacant room, I’m looking for a flatmate",
+        "2": "I’m looking for a flatmate who has a vacant room",
+        "3": "I have a house to lease, I’m looking for a tenant"
+    },
+    "prompts": {
+        "A": "In the living room I prefer to ...",
+        "B": "I’m particular about ...",
+        "C": "Together we could ...",
+        "D": "On weekends ...",
+        "E": "I like the thermostat at ...",
+        "F": "Be prepared to put up with ...",
+        "G": "I can cook ...",
+        "H": "My pet ...",
+        "I": "We'll get along if ...",
+        "J": "Lights out at ...",
+        "K": "I like being alone when ...",
+        "L": "I'm the best to live with because ...",
+        "M": "Custom Message - No Prompt"
+    },
+    "profile": {
+        "about": {
+            "label": "About Me",
+            "elements": {
+                "ethnicity": {
+                    "label": "Ethnicity",
+                    "type": "radio",
+                    "options": {
+                        "A": "American Indian",
+                        "B": "Black/African Descent",
+                        "C": "East Asian",
+                        "D": "Hispanic/Latino",
+                        "E": "Middle Eastern",
+                        "F": "Pacific Islander",
+                        "G": "South Asian",
+                        "H": "Southeast Asian",
+                        "I": "White/Caucasian",
+                        "J": "Other"
+                    }
+                },
+                "hometown": {
+                    "label": "Hometown",
+                    "type": "text",
+                    "placeholder": "Chicago, IL or Mumbai, India"
+                },
+                "relationship_status": {
+                    "label": "Relationship Status",
+                    "type": "radio",
+                    "options": {
+                        "A": "Single",
+                        "B": "In a Relationship",
+                        "C": "Engaged",
+                        "D": "Married",
+                        "E": "In a civil partnership",
+                        "F": "In a domestic partnership",
+                        "G": "In an open relationship",
+                        "I": "It's Complicated",
+                        "H": "Separated",
+                        "J": "Divorced",
+                        "K": "Widowed"
+                    }
+                },
+                "dietary_preference": {
+                    "label": "Dietary Preference",
+                    "type": "radio",
+                    "options": {
+                        "A": "No Restrictions",
+                        "B": "Vegetarian",
+                        "C": "Vegan",
+                        "D": "Ketogenic",
+                        "E": "Halal",
+                        "F": "Paleo",
+                        "G": "Dairy free and lactose free",
+                        "H": "Gluten free and coeliac",
+                        "I": "Tree nut and peanut allergies",
+                        "J": "Fish and shellfish allergies",
+                        "K": "Other"
+                    }
+                },
+                "work": {
+                    "label": "Work",
+                    "type": "text",
+                    "placeholder": "Product Manager at Google"
+                },
+                "education_level": {
+                    "label": "Education Level",
+                    "type": "radio",
+                    "options": {
+                        "HS": "High School",
+                        "UG": "Undergrad",
+                        "PG": "Postgrad"
+                    }
+                },
+                "political_views": {
+                    "label": "Political Views",
+                    "type": "radio",
+                    "options": {
+                        "A": "Liberal",
+                        "B": "Moderate",
+                        "C": "Conservative",
+                        "D": "Not Political",
+                        "E": "Other"
+                    }
+                },
+                "religion": {
+                    "label": "Religious Beliefs",
+                    "type": "radio",
+                    "options": {
+                        "A": "Agnostic",
+                        "B": "Atheist",
+                        "C": "Buddhist",
+                        "D": "Catholic",
+                        "E": "Christian",
+                        "F": "Hindu",
+                        "G": "Jewish",
+                        "H": "Muslim",
+                        "I": "Sikh",
+                        "J": "Spiritual",
+                        "K": "Other"
+                    }
+                },
+                "pets": {
+                    "label": "Pets",
+                    "type": "checkbox",
+                    "options": {
+                        "dog": "Dog",
+                        "cat": "Cat",
+                        "monkey": "Monkey",
+                        "bird": "Bird",
+                        "rabbit": "Rabbit",
+                        "pig": "Pig",
+                        "fish": "Fish",
+                        "snake": "Snake",
+                        "mouse-field": "Mouse",
+                        "turtle": "Turtle",
+                        "spider": "Spider",
+                        "paw": "Other"
+                    }
+                }
+            }
+        },
+        "vices": {
+            "label": "Vices",
+            "elements": {
+                "smoking": {
+                    "label": "Smoking",
+                    "type": "radio",
+                    "options": {
+                        "Y": "Yes",
+                        "N": "No",
+                        "S": "Socially"
+                    }
+                },
+                "drinking": {
+                    "label": "Drinking",
+                    "type": "radio",
+                    "options": {
+                        "Y": "Yes",
+                        "N": "No",
+                        "S": "Socially"
+                    }
+                },
+                "marijuana": {
+                    "label": "Marijuana",
+                    "type": "radio",
+                    "options": {
+                        "Y": "Yes",
+                        "N": "No",
+                        "S": "Socially"
+                    }
+                },
+                "drugs": {
+                    "label": "Drugs",
+                    "type": "radio",
+                    "options": {
+                        "Y": "Yes",
+                        "N": "No",
+                        "S": "Socially"
+                    }
+                }
+            }
+        },
+        "personal_information": {
+            "label": "Personal Information",
+            "elements": {
+                "display_name": {
+                    "label": "Full Name",
+                    "type": "text",
+                    "placeholder": "Full Name",
+                    "info": "Hide your name to show your initials to unmatched profiles."
+                },
+                "dob": {
+                    "label": "Date of Birth",
+                    "type": "date",
+                    "placeholder": "Date of Birth",
+                    "info": "Only your age is visible on your profile."
+                },
+                "gender": {
+                    "label": "Gender",
+                    "type": "radio",
+                    "options": {
+                        "F": "Female",
+                        "M": "Male",
+                        "N": "Non-Binary"
+                    }
+                },
+                "pronouns": {
+                    "label": "Pronouns",
+                    "type": "checkbox",
+                    "options": {
+                        "A": "she/her",
+                        "B": "he/him",
+                        "C": "they/them",
+                        "D": "ze/zir",
+                        "E": "xe/xim",
+                        "F": "ey/em",
+                        "G": "ve/ver"
+                    }
+                }
+            }
+        }
+    },
+    "preferences": {
+        "gender": {
+            "label": "Gender",
+            "type": "checkbox",
+            "options": {
+                "F": "Female",
+                "M": "Male",
+                "N": "Non-Binary"
+            }
+        },
+        "political_views": {
+            "label": "Political Views",
+            "type": "checkbox",
+            "options": {
+                "A": "Liberal",
+                "B": "Moderate",
+                "C": "Conservative",
+                "D": "Not Political",
+                "E": "Other"
+            }
+        },
+        "ethnicity": {
+            "label": "Ethnicity",
+            "type": "checkbox",
+            "options": {
+                "A": "American Indian",
+                "B": "Black/African Descent",
+                "C": "East Asian",
+                "D": "Hispanic/Latino",
+                "E": "Middle Eastern",
+                "F": "Pacific Islander",
+                "G": "South Asian",
+                "H": "Southeast Asian",
+                "I": "White/Caucasian",
+                "J": "Other"
+            }
+        },
+        "religion": {
+            "label": "Religious Beliefs",
+            "type": "checkbox",
+            "options": {
+                "A": "Agnostic",
+                "B": "Atheist",
+                "C": "Buddhist",
+                "D": "Catholic",
+                "E": "Christian",
+                "F": "Hindu",
+                "G": "Jewish",
+                "H": "Muslim",
+                "I": "Sikh",
+                "J": "Spiritual",
+                "K": "Other"
+            }
+        },
+        "dietary_preference": {
+            "label": "Dietary Preference",
+            "type": "checkbox",
+            "options": {
+                "A": "No Restrictions",
+                "B": "Vegetarian",
+                "C": "Vegan",
+                "D": "Ketogenic",
+                "E": "Halal",
+                "F": "Paleo",
+                "G": "Dairy free and lactose free",
+                "H": "Gluten free and coeliac",
+                "I": "Tree nut and peanut allergies",
+                "J": "Fish and shellfish allergies",
+                "K": "Other"
+            }
+        },
+        "education_level": {
+            "label": "Education Level",
+            "type": "checkbox",
+            "options": {
+                "HS": "High School",
+                "UG": "Undergrad",
+                "PG": "Postgrad"
+            }
+        },
+        "pets": {
+            "label": "Pets",
+            "type": "radio",
+            "options": {
+                "Y": "Yes",
+                "N": "No"
+            }
+        },
+        "smoking": {
+            "label": "Smoking",
+            "type": "radio",
+            "options": {
+                "Y": "Yes",
+                "N": "No"
+            }
+        },
+        "drinking": {
+            "label": "Drinking",
+            "type": "radio",
+            "options": {
+                "Y": "Yes",
+                "N": "No"
+            }
+        },
+        "marijuana": {
+            "label": "Marijuana",
+            "type": "radio",
+            "options": {
+                "Y": "Yes",
+                "N": "No"
+            }
+        },
+        "drugs": {
+            "label": "Drugs",
+            "type": "radio",
+            "options": {
+                "Y": "Yes",
+                "N": "No"
+            }
+        }
+    }
+}
+
+
+

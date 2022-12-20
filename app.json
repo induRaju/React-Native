@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Rentals App",
+    "slug": "RentalsApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/png/appstore.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/png/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "Rentals.App"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/png/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "Rentals.App"
+    },
+    "web": {
+      "favicon": "./assets/png/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9b11943-6935-4a1c-a35a-baea8a6342fe"
+      }
+    }
+  }
+}
